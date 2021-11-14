@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    const http = '/sendmail.php';
+    const http = 'sendmail.php';
     const form = document.getElementById('consultation-form');
     console.log("DOM fully loaded and parsed");
     const xhr = new XMLHttpRequest();
